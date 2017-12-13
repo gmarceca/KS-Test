@@ -10,8 +10,8 @@ Given n=10 measurements of a certain magnitude, determine if the process of meas
 General remarks:
 
 - mu and sigma can be estimated as:
-mu _est = \sum_i{x _i}/10
-sigma _est^2 = \sum _i{(x _i-mu _est)}^2/9
+$mu_{est} = \sum_{i}{x_{i}}/10$
+sigma_{est}^{2} = \frac{\sum_{i}{(x_{i}-mu_{est})}^2}{9}
 
 - The chi-squared test is not possible to apply since the statistics is not enough for the Poisson -> Gauss approximation 
 
