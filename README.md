@@ -33,24 +33,24 @@ Problem statements:
 
 1) Generate computationally the Tk' distribution. Make a normalized histogram of Tk' and plot it. Also, get the critical value c : Tk' > c for a significance of alpha = 0.05.
 
-This problem was addressed in this code:\\
+This problem was addressed in this code:
 KS_distribution_maker.R
 
 
 2) Generate random numbers from a N(0,1) and compute the p-values p and p' from the "standard" and the "modified" KS-test.
 
-This problem was addressed in this code:\\
+This problem was addressed in this code:
 pvalue_distribution_maker.R
 
 
 3) Given the following data: 6.55 4.39 3.80 3.53 5.84 3.51 3.76 3.61 3.91 4.23
 Compute the p-value using the standard and the modified KS-test. What can you say about the data gaussianity?
 
-This problem was addressed in this code:\\
+This problem was addressed in this code:
 pvalue_observable_computing.R
 
 
 4) Now suppose that the data comes from a t-Student distribution with 15 degrees of freedom. Study the discrimination power of the test as a function of the size of the sample n.
 
-This problem was addressed in this code:\\
+This problem was addressed in this code:
 KS_test_power.R
