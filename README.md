@@ -14,7 +14,7 @@ General remarks:
 
 ![](https://latex.codecogs.com/gif.latex?%5Cmu_%7Best%7D%20%3D%20%5Cfrac%7B1%7D%7B10%7D%5Csum_%7Bi%7D%7Bx_%7Bi%7D%7D)
 
-![](https://latex.codecogs.com/gif.latex?%5Csigma_%7Best%7D%5E%7B2%7D%20%3D%20%5Cfrac%7B%5Csum_%7Bi%7D%7B%28x_%7Bi%7D-%5Cmu_%7Best%7D%29%7D%5E2%7D%7B9%7D)
+![](https://latex.codecogs.com/gif.latex?%5Csigma_%7Best%7D%5E%7B2%7D%20%3D%20%5Cfrac%7B1%7D%7B9%7D%5Csum_%7Bi%7D%28x_%7Bi%7D-%5Cmu_%7Best%7D%29%5E2)
 
 
 - The chi-squared test is not possible to apply since the statistics is not enough for the Poisson -> Gauss approximation 
