@@ -9,6 +9,8 @@ Given n=10 measurements of a certain magnitude, determine if the process of meas
 
 General remarks:
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 - mu and sigma can be estimated as:
 $mu_{est} = \sum_{i}{x_{i}}/10$
 sigma_{est}^{2} = \frac{\sum_{i}{(x_{i}-mu_{est})}^2}{9}
