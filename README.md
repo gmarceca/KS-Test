@@ -11,9 +11,11 @@ General remarks:
 
 
 - mu and sigma can be estimated as:
-![](https://latex.codecogs.com/gif.latex?%5Chat%7B%5Cmu%7D%20%3D%20%5Cfrac%7B1%7D%7B10%7D%5Csum_%7Bi%7D%7Bx_%7Bi%7D%7D)
-$mu_{est} = \sum_{i}{x_{i}}/10$
-sigma_{est}^{2} = \frac{\sum_{i}{(x_{i}-mu_{est})}^2}{9}
+
+![](https://latex.codecogs.com/gif.latex?%5Cmu_%7Best%7D%20%3D%20%5Cfrac%7B1%7D%7B10%7D%5Csum_%7Bi%7D%7Bx_%7Bi%7D%7D)
+
+![](https://latex.codecogs.com/gif.latex?%5Csigma_%7Best%7D%5E%7B2%7D%20%3D%20%5Cfrac%7B%5Csum_%7Bi%7D%7B%28x_%7Bi%7D-%5Cmu_%7Best%7D%29%7D%5E2%7D%7B9%7D)
+
 
 - The chi-squared test is not possible to apply since the statistics is not enough for the Poisson -> Gauss approximation 
 
